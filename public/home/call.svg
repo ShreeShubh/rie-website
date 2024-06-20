@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="Group_300" data-name="Group 300" transform="translate(-26 -26)">
+    <g id="phone" transform="translate(26 26)">
+      <path id="Path_42125" data-name="Path 42125" d="M34,24A22,22,0,0,0,12,2V6.4A17.6,17.6,0,0,1,29.6,24Z" transform="translate(10 -2)" fill="#2daa8c"/>
+      <path id="Path_42126" data-name="Path 42126" d="M2,17.2V6.2A2.2,2.2,0,0,1,4.2,4h11a2.2,2.2,0,0,1,2.2,2.2V15a2.2,2.2,0,0,1-2.2,2.2H10.8A17.6,17.6,0,0,0,28.4,34.8V30.4a2.2,2.2,0,0,1,2.2-2.2h8.8a2.2,2.2,0,0,1,2.2,2.2v11a2.2,2.2,0,0,1-2.2,2.2h-11A26.4,26.4,0,0,1,2,17.2Z" transform="translate(-2 0.4)" fill="#2daa8c"/>
+      <path id="Path_42127" data-name="Path 42127" d="M24.2,14.148a13.2,13.2,0,0,1,1,5.052H21.24A9.239,9.239,0,0,0,12,9.96V6a13.2,13.2,0,0,1,12.2,8.148Z" transform="translate(10 2.8)" fill="#2daa8c"/>
+    </g>
+  </g>
+</svg>

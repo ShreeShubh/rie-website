@@ -1,18 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    "./node_modules/flowbite-react/lib/**/*.js",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        "custom-blue": "#150539",
+        "custom-pink": "#EC3C70",
+      },
+      boxShadow: {
+        custom: "4px 4px 0px 0px rgba(255, 255, 255, 1)",
+        customAbout: "-2px 1px 51px 18px rgba(128,128,128,0.75)",
       },
     },
   },
-  plugins: [],
-};
+  plugins: [require("flowbite/plugin")],
+}
