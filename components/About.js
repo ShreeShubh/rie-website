@@ -3,7 +3,7 @@ import Image from "next/image"
 const About = () => {
   return (
     <div className="flex flex-col gap-14 items-center mt-28 p-5">
-      <h2 className="text-[#EFEFEF] text-5xl">
+      <h2 className="text-[#EFEFEF] text-5xl font-[100]">
         About <span className="font-semibold">RIE</span>
       </h2>
       <div className="w-full md:w-3/5 relative">

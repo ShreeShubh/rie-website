@@ -1,11 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"); */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   font-family: "Quicksand", sans-serif;
+} */
+
+@font-face {
+  font-family: "Averta";
+  src: url("/fonts/AvertaRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Averta", sans-serif;
 }
 
 .custom-shadow-border:hover::after {
