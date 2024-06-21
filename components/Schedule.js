@@ -7,7 +7,7 @@ const Schedule = () => {
         {" "}
         <span className="font-semibold">Schedule</span> at a Glance
       </h2>
-      <div className="schedule-card-1 rounded-2xl p-4 w-full md:w-3/4 z-20">
+      <div className="schedule-card-1 rounded-2xl p-2 md:p-4 w-full md:w-3/4 z-20">
         <div className="flex flex-col md:flex-row justify-between p-4">
           <div className="flex flex-col items-center gap-6">
             <p className="w-40 flex justify-center py-1 rounded-3xl bg-[#EFEFEF] text-black text-xl">
@@ -36,7 +36,7 @@ const Schedule = () => {
         </div>
       </div>
 
-      <div className="schedule-card-2 rounded-2xl p-4 w-full md:w-3/4 z-20">
+      <div className="schedule-card-2 rounded-2xl p-2 md:p-4 w-full md:w-3/4 z-20">
         <div className="flex flex-col md:flex-row justify-between p-4">
           <div className="flex flex-col items-center gap-6">
             <p className="w-40 flex justify-center py-1 rounded-3xl bg-[#EFEFEF] text-black text-xl">
@@ -65,7 +65,7 @@ const Schedule = () => {
         </div>
       </div>
 
-      <div className="schedule-card-3 rounded-2xl p-4 w-full md:w-3/4 relative">
+      <div className="schedule-card-3 rounded-2xl p-2 md:p-4 w-full md:w-3/4 relative">
         <div className="flex flex-col md:flex-row justify-between p-4">
           <div className="flex flex-col items-center gap-6">
             <p className="w-40 flex justify-center py-1 rounded-3xl bg-[#EFEFEF] text-black text-xl">

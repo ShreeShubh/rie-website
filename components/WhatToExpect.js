@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const WhatToExpect = () => {
   return (
-    <div className="mt-16 flex flex-col items-center gap-10 p-5">
+    <div className="mt-16 flex flex-col items-center gap-10 p-2 md:p-5">
       <h2 className="text-[#EFEFEF] text-4xl md:text-5xl">
         What to <span className="font-semibold">Expect ?</span>{" "}
       </h2>

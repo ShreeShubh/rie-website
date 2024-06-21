@@ -83,7 +83,7 @@ const HomeBanner = () => {
             Immerse Yourself In a Multiverse of Creativity, Culture, and
             Community.
           </p>
-          <button className="bg-custom-pink text-2xl px-12 py-5 text-white mt-10 hover:bg-white hover:text-black">
+          <button className="bg-custom-pink text-2xl px-10 py-3 text-white mt-10 hover:bg-white hover:text-black">
             Register
           </button>
         </div>
