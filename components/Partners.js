@@ -53,23 +53,53 @@ const Partners = () => {
       </h3>
       <div className="mt-14 w-10/12 md:ps-20 mx-auto">
         <Slider className="" {...settings}>
-          <div className="">
-            <Image src="/home/partner.png" width={150} height={60} alt="" />
+          <div>
+            <Image
+              src="/home/icici.png"
+              width={150}
+              height={50}
+              className="bg-white w-48 h-14 px-4 py-2 rounded-full"
+            />
           </div>
           <div className="">
-            <Image src="/home/partner.png" width={150} height={60} alt="" />
+            <Image
+              src="/home/virgin.png"
+              width={150}
+              height={50}
+              className="bg-white w-48 h-14 px-4 py-2 rounded-full"
+            />
           </div>
           <div className="">
-            <Image src="/home/partner.png" width={150} height={60} alt="" />
+            <Image
+              src="/home/godwitt.png"
+              width={150}
+              height={50}
+              className="bg-white w-48 h-14 px-4 py-2 rounded-full"
+            />
           </div>
           <div className="">
-            <Image src="/home/partner.png" width={150} height={60} alt="" />
+            <Image
+              src="/home/icici.png"
+              width={150}
+              height={50}
+              className="bg-white w-48 h-14 px-4 py-2 rounded-full"
+            />
           </div>
           <div className="">
-            <Image src="/home/partner.png" width={150} height={60} alt="" />
+            <Image
+              src="/home/virgin.png"
+              width={150}
+              height={50}
+              className="bg-white w-48 h-14 px-4 py-2 rounded-full"
+            />
           </div>
           <div className="">
-            <Image src="/home/partner.png" width={150} height={60} alt="" />
+            <Image
+              src="/home/godwitt.png"
+              width={150}
+              height={50}
+              className="bg-white w-48 h-14 px-4 py-2 rounded-full"
+            />
           </div>
         </Slider>
       </div>

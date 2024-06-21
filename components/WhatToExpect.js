@@ -8,7 +8,7 @@ const WhatToExpect = () => {
       <h2 className="text-[#EFEFEF] text-4xl md:text-5xl">
         What to <span className="font-semibold">Expect ?</span>{" "}
       </h2>
-      <p className="text-[#EFEFEF] md:text-xl text-center">
+      <p className="text-[#EFEFEF] md:text-xl text-center md:w-3/5">
         Gear up for three action-packed days of unmatched learning and
         invaluable insights. Our event brings together local and global
         chapters, fostering a unique blend of regional expertise and

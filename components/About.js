@@ -6,10 +6,10 @@ const About = () => {
       <h2 className="text-[#EFEFEF] text-5xl">
         About <span className="font-semibold">RIE</span>
       </h2>
-      <div className="w-full md:w-3/4 relative">
-        <div className="relative w-full h-0 pb-[56.25%] overflow-hidden rounded-md shadow-customAbout shadow-indigo-500/50 custom-about-shadow z-auto">
+      <div className="w-full md:w-3/5 relative">
+        <div className="relative w-full h-0 pb-[56.25%] overflow-hidden rounded-md shadow-customAbout shadow-indigo-500/50 custom-about-shadow z-50">
           <iframe
-            src=""
+            src="https://docs.rie2025.com/wp-content/uploads/2024/06/cloud-document.mp4"
             className="absolute top-0 left-0 w-full h-full"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -20,7 +20,7 @@ const About = () => {
           src="/home/aboutSnake.svg"
           width={300}
           height={919}
-          className="absolute -right-[29%] top-40 z-0 overflow-hidden hidden md:block"
+          className="absolute -right-[35%] top-40 z-0 overflow-hidden hidden md:block"
           alt=""
         />
       </div>

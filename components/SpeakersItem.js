@@ -5,19 +5,21 @@ const SpeakersItem = ({ speakersDetails }) => {
   return (
     <div
       style={{ backgroundColor: bgColor }}
-      className="md:w-[200px] w-44 h-[275px] pt-7 px-4 rounded-2xl flex flex-col justify-between"
+      className="md:w-[200px] w-44 h-[275px] pt-7 px-4 rounded-2xl flex flex-col justify-between group"
     >
       <div>
         <h3 className="text-xl font-semibold">{name}</h3>
         <p>{title}</p>
       </div>
-      <Image
-        src="/home/amitabh.png"
-        width={100}
-        height={100}
-        className="w-full"
-        alt=""
-      />
+      <div className="overflow-hidden">
+        <Image
+          src={imageUrl1}
+          width={100}
+          height={100}
+          className="w-full grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-300"
+          alt=""
+        />
+      </div>
     </div>
   )
 }
