@@ -5,12 +5,12 @@ const RetreatItem = ({ retreatDetails }) => {
 
   return (
     <div
-      className="relative rounded-xl border-2 border-white flex flex-col justify-end p-5 w-[250px] h-[300px] bg-cover group cursor-pointer"
+      className="relative rounded-xl border-2 border-white flex flex-col justify-end p-5 w-[175px] h-[275px] md:w-[250px] md:h-[300px] bg-cover group cursor-pointer"
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <div className="absolute top-5 left-5">
         <span
-          className="px-4 py-1.5 rounded-3xl text-sm"
+          className="px-2 py-1.5 rounded-3xl text-xs"
           style={{ backgroundColor: bgColor }}
         >
           {category}

@@ -70,35 +70,35 @@ const HomeBanner = () => {
   }
 
   return (
-    <div className="flex items-center justify-between gap-5 max-w-screen-xl p-4 mx-auto mt-6 relative">
-      <div className="flex flex-col gap-5">
+    <div className="flex flex-col md:flex-row items-center justify-between gap-5 max-w-screen-xl p-4 mx-auto mt-6 relative">
+      <div className="flex flex-col gap-5 items-center md:items-start text-center md:text-left">
         <div>
           <Image src="/home/riemix.svg" width={400} height={150} alt="" />
-          <p className="text-4xl font-semibold mt-2">January 9-12, 2025</p>
+          <p className="text-4xl font-semibold mt-4 md:mt-2">
+            January 9-12, 2025
+          </p>
         </div>
-        <div>
-          <p className="text-3xl w-2/5">
+        <div className="mt-20 md:mt-0">
+          <p className="text-4xl md:w-2/5">
             Immerse Yourself In a Multiverse of Creativity, Culture, and
             Community.
           </p>
-          <button className="bg-custom-pink text-2xl px-4 py-2 text-white mt-8 hover:bg-white hover:text-black">
+          <button className="bg-custom-pink text-2xl px-12 py-5 text-white mt-10 hover:bg-white hover:text-black">
             Register
           </button>
         </div>
       </div>
-      <div className="w-1/2 absolute right-0 top-auto">
+      <div className="w-full text-center md:w-1/2 md:absolute md:right-0 top-auto mt-16 md:mt-0">
         <InsightSlider ref={sliderRef} {...setting}>
-          {bannerImages.map((item) => {
-            return (
-              <div key={item.id}>
-                <img
-                  src={item.imageUrl}
-                  alt="banner"
-                  className="w-full h-[450px]"
-                />
-              </div>
-            )
-          })}
+          {bannerImages.map((item) => (
+            <div key={item.id}>
+              <img
+                src={item.imageUrl}
+                alt="banner"
+                className="w-full h-[300px] md:h-[450px]"
+              />
+            </div>
+          ))}
         </InsightSlider>
       </div>
     </div>

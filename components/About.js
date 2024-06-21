@@ -4,15 +4,23 @@ const About = () => {
   return (
     <div className="flex flex-col gap-14 items-center mt-28 p-5">
       <h2 className="text-[#EFEFEF] text-5xl">
-        About <span className="font-semibold">RIE</span>{" "}
+        About <span className="font-semibold">RIE</span>
       </h2>
-      <div className="w-3/4 relative">
-        <div className="w-full h-[600px] shadow-customAbout shadow-indigo-500/50 rounded-md custom-about-shadow z-auto"></div>
+      <div className="w-full md:w-3/4 relative">
+        <div className="relative w-full h-0 pb-[56.25%] overflow-hidden rounded-md shadow-customAbout shadow-indigo-500/50 custom-about-shadow z-auto">
+          <iframe
+            src=""
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
         <Image
           src="/home/aboutSnake.svg"
           width={300}
           height={919}
-          className="absolute -right-[29%] top-40 z-0 overflow-hidden"
+          className="absolute -right-[29%] top-40 z-0 overflow-hidden hidden md:block"
           alt=""
         />
       </div>

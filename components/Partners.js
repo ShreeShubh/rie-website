@@ -29,8 +29,8 @@ const Partners = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           infinite: true,
           dots: false,
         },
@@ -47,11 +47,11 @@ const Partners = () => {
     ],
   }
   return (
-    <div className="p-5 text-center mt-16">
-      <h3 className="text-[#EFEFEF] text-5xl font-semibold">
+    <div className="p-5 text-center md:mt-16 mt-12">
+      <h3 className="text-[#EFEFEF] text-4xl md:text-5xl font-semibold">
         <Link href="/all-partner">Partners</Link>
       </h3>
-      <div className="mt-14 w-10/12 ps-20 mx-auto">
+      <div className="mt-14 w-10/12 md:ps-20 mx-auto">
         <Slider className="" {...settings}>
           <div className="">
             <Image src="/home/partner.png" width={150} height={60} alt="" />
@@ -73,7 +73,7 @@ const Partners = () => {
           </div>
         </Slider>
       </div>
-      <hr className="w-3/5 mx-auto mt-20 border-[#EFEFEF]" />
+      <hr className="w-3/5 mx-auto mt-12 md:mt-20 border-[#EFEFEF]" />
     </div>
   )
 }

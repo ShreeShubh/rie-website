@@ -97,8 +97,8 @@ function PastEvent() {
   }
 
   return (
-    <div className="slider-container w-3/5 mx-auto p-4 mt-16 relative z-50">
-      <h2 className="text-5xl text-center mb-12">
+    <div className="slider-container w-full md:w-3/5 mx-auto p-4 mt-16 relative z-50">
+      <h2 className="text-4xl md:text-5xl text-center mb-12">
         Past Event <span className="font-semibold">Gallery</span>
       </h2>
       <Slider

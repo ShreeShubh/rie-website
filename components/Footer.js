@@ -10,12 +10,14 @@ import Link from "next/link"
 
 const Footer = () => {
   return (
-    <div className="bg-custom-blue text-white mt-8">
+    <div className="bg-custom-blue text-white md:mt-8">
       <div className="flex flex-col items-center max-w-screen-xl mx-auto p-4">
         <Image src="/home/riemix.svg" width={250} height={100} alt="" />
-        <div className="flex justify-between w-full items-center mt-12">
-          <p className="text-xl">Contact us at: rie@eobangalore.com</p>
-          <div className="flex gap-4">
+        <div className="flex flex-col md:flex-row justify-between w-full">
+          <p className="text-xl mt-6 text-center">
+            Contact us at: rie@eobangalore.com
+          </p>
+          <div className="flex justify-center flex-wrap gap-4 mt-6">
             <span className="text-xl">{appStore}</span>
             <span className="text-xl">{googlePlay}</span>
             <span className="text-xl">{facebook}</span>
@@ -23,8 +25,8 @@ const Footer = () => {
             <span className="text-xl">{linkedIn}</span>
           </div>
         </div>
-        <div className="flex justify-between w-full items-center mt-5">
-          <ul className="flex flex-wrap justify-center text-sm text-gray-300">
+        <div className="w-full mt-8 flex flex-col md:flex-row justify-between">
+          <ul className="flex flex-wrap justify-center text-sm text-gray-300 mb-4">
             <li className="after:content-['|'] after:px-2 last:after:content-['']">
               <Link href="/contact-us" className="hover:text-white">
                 CONTACT US
@@ -51,7 +53,9 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <span className="text-sm text-gray-300">© Copyright 2024</span>
+          <span className="block text-center text-sm text-gray-300">
+            © Copyright 2024
+          </span>
         </div>
       </div>
     </div>
