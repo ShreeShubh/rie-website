@@ -70,11 +70,11 @@ const HomeBanner = () => {
   }
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between gap-5 max-w-screen-xl p-4 mx-auto mt-6 relative">
+    <div className="flex flex-col md:flex-row items-center justify-between gap-5 max-w-screen-xl p-2 md:p-4 mx-auto mt-6 relative">
       <div className="flex flex-col gap-5 items-center md:items-start text-center md:text-left">
         <div>
           <Image src="/home/riemix.svg" width={400} height={150} alt="" />
-          <p className="text-4xl font-semibold mt-4 md:mt-2">
+          <p className="text-3xl md:text-4xl font-semibold mt-4 md:mt-2">
             January 9-12, 2025
           </p>
         </div>
@@ -88,7 +88,7 @@ const HomeBanner = () => {
           </button>
         </div>
       </div>
-      <div className="w-full text-center md:w-1/2 md:absolute md:right-0 top-auto mt-16 md:mt-0">
+      <div className="w-full text-center md:w-1/2 md:absolute md:right-0 top-auto mt-14 md:mt-0">
         <InsightSlider ref={sliderRef} {...setting}>
           {bannerImages.map((item) => (
             <div key={item.id}>

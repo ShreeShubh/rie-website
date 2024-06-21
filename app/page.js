@@ -10,7 +10,7 @@ import WhatToExpect from "@/components/WhatToExpect"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-custom-blue text-white p-7">
+    <main className="min-h-screen bg-custom-blue text-white md:p-7 p-4">
       <HomeBanner />
       <About />
       <WhatToExpect />

@@ -47,13 +47,13 @@ const Partners = () => {
     ],
   }
   return (
-    <div className="p-5 text-center md:mt-16 mt-12">
+    <div className="p-2 md:p-5 text-center md:mt-16 mt-12">
       <h3 className="text-[#EFEFEF] text-4xl md:text-5xl font-semibold">
         <Link href="/all-partner">Partners</Link>
       </h3>
       <div className="mt-14 w-10/12 md:ps-20 mx-auto">
         <Slider className="" {...settings}>
-          <div>
+          <div className="mx-2">
             <Image
               src="/home/icici.png"
               width={150}
@@ -61,7 +61,7 @@ const Partners = () => {
               className="bg-white w-48 h-14 px-4 py-2 rounded-full"
             />
           </div>
-          <div className="">
+          <div className="mx-2">
             <Image
               src="/home/virgin.png"
               width={150}
@@ -69,7 +69,7 @@ const Partners = () => {
               className="bg-white w-48 h-14 px-4 py-2 rounded-full"
             />
           </div>
-          <div className="">
+          <div className="mx-2">
             <Image
               src="/home/godwitt.png"
               width={150}
@@ -77,7 +77,7 @@ const Partners = () => {
               className="bg-white w-48 h-14 px-4 py-2 rounded-full"
             />
           </div>
-          <div className="">
+          <div className="mx-2">
             <Image
               src="/home/icici.png"
               width={150}
@@ -85,7 +85,7 @@ const Partners = () => {
               className="bg-white w-48 h-14 px-4 py-2 rounded-full"
             />
           </div>
-          <div className="">
+          <div className="mx-2">
             <Image
               src="/home/virgin.png"
               width={150}
@@ -93,7 +93,7 @@ const Partners = () => {
               className="bg-white w-48 h-14 px-4 py-2 rounded-full"
             />
           </div>
-          <div className="">
+          <div className="mx-2">
             <Image
               src="/home/godwitt.png"
               width={150}
