@@ -226,7 +226,7 @@ function PastEvent() {
         src="/home/shapes4.svg"
         width={281}
         height={256}
-        className="absolute -z-20 top-1/2 -right-40 rotate-180 transform transition-transform duration-300 hover:rotate-45"
+        className="absolute -z-20 top-1/2 -right-32 rotate-90 transform transition-transform duration-300 hover:rotate-45"
       />
     </div>
   )
