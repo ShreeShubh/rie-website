@@ -45,7 +45,7 @@ const Speakers = () => {
   }
 
   return (
-    <div className="p-5 flex flex-col items-center gap-10 mt-16">
+    <div className="p-2 md:p-5 flex flex-col items-center gap-10 mt-16">
       <h2 className="text-[#EFEFEF] text-4xl md:text-5xl">
         This Year's<span className="font-semibold"> Speakers</span>
       </h2>

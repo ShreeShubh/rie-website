@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Schedule = () => {
   return (
-    <div className="p-5 flex flex-col items-center gap-10 mt-16">
+    <div className="p-2 md:p-5 flex flex-col items-center gap-10 mt-16">
       <h2 className="text-[#EFEFEF] text-4xl  md:text-5xl">
         {" "}
         <span className="font-semibold">Schedule</span> at a Glance

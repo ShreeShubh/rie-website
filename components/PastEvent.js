@@ -97,7 +97,7 @@ function PastEvent() {
   }
 
   return (
-    <div className="slider-container w-full md:w-3/5 mx-auto p-4 mt-16 relative z-50">
+    <div className="slider-container w-full md:w-3/5 mx-auto p-2 md:p-4 mt-16 relative z-50">
       <h2 className="text-4xl md:text-5xl text-center mb-12">
         Past Event <span className="font-semibold">Gallery</span>
       </h2>
@@ -165,56 +165,57 @@ function PastEvent() {
           focusOnSelect={true}
           {...settings2}
         >
-          <div className="mr-4">
+          <div className="mx-4 md:mx-1">
             <Image
               src="/home/image2.jpg"
               width={195}
               height={110}
-              className="rounded-xl"
+              className="rounded-xl w-40 md:w-48"
             />
           </div>
-          <div className="mr-4">
+          <div className="mx-4 md:mx-1">
             <Image
               src="/home/image2.jpg"
               width={195}
               height={110}
-              className="rounded-xl"
+              className="rounded-xl w-40 md:w-48"
             />
           </div>
-          <div className="mr-4">
+          <div className="mx-4 md:mx-1">
             <Image
               src="/home/image3.jpg"
               width={195}
               height={110}
-              className="rounded-xl"
+              className="rounded-xl w-40 md:w-48"
             />
           </div>
-          <div className="mr-4">
+          <div className="mx-4 md:mx-1">
             <Image
               src="/home/image4.jpg"
               width={195}
               height={110}
-              className="rounded-xl"
+              className="rounded-xl w-40 md:w-48"
             />
           </div>
-          <div className="mr-4">
+          <div className="mx-4 md:mx-1">
             <Image
               src="/home/image2.jpg"
               width={195}
               height={110}
-              className="rounded-xl"
+              className="rounded-xl w-40 md:w-48"
             />
           </div>
-          <div className="mr-4">
+          <div className="mx-4 md:mx-1">
             <Image
               src="/home/image2.jpg"
               width={195}
               height={110}
-              className="rounded-xl"
+              className="rounded-xl w-40 md:w-48"
             />
           </div>
         </Slider>
       </div>
+
       <Image
         src="/home/shapes2.svg"
         width={281}
