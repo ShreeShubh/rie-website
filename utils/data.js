@@ -52,7 +52,7 @@ export const speakersData = [
     id: 3,
     name: "Vikram Seth",
     title: "Lorem Ipsum",
-    imageUrl1: "/speakers/vikramSeth.png",
+    imageUrl1: "/speakers/VikramSeth.png",
     imageUrl2: "",
     bgColor: "#EC9671",
     icon: "",

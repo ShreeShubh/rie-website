@@ -5,7 +5,7 @@ const SpeakersItem = ({ speakersDetails }) => {
   return (
     <div
       style={{ backgroundColor: bgColor }}
-      className="md:w-[200px] w-auto h-[275px] m-2 pt-7 px-2 md:px-4 rounded-2xl flex flex-col justify-between group"
+      className="md:w-[200px] w-auto h-64 md:h-[275px] m-2 pt-7 px-2 md:px-4 rounded-2xl flex flex-col justify-between group"
     >
       <div>
         <h3 className="text-xl font-semibold">{name}</h3>
