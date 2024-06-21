@@ -6,7 +6,7 @@ const ExpectItem = ({ expectDetails }) => {
   return (
     <li
       style={{ backgroundColor: bgColor }}
-      className={`border border-[#EFEFEF] h-[185px] md:h-[250px] rounded-2xl p-5 flex flex-col gap-2 justify-between group relative overflow-hidden cursor-pointer w-full sm:w-auto z-20`}
+      className={`border border-[#EFEFEF] h-[185px] md:h-[250px] rounded-2xl p-2 md:p-5 flex flex-col gap-2 justify-between group relative overflow-hidden cursor-pointer w-full sm:w-auto z-20`}
     >
       <span className="text-xl md:text-2xl md:w-1/2 z-10">{title}</span>
       <p className="hidden text-xs md:text-base group-hover:block transition-opacity duration-300 opacity-0 group-hover:opacity-100 z-10">
